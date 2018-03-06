@@ -16,5 +16,15 @@ import java.util.Scanner;
 
 public class Exercise_01 {
 
+    public static void main(String[] args) {
+
+        Scanner userInput = new Scanner(System.in);
+        System.out.println("Enter degrees in celcius : ");
+        double celcius = userInput.nextDouble();
+        double farenheit = 9 * (celcius /5) + 32;
+
+        System.out.println(celcius + " degrees celcius = " + farenheit + " degrees fahrenheit");
+    }
+
 
 }

@@ -14,5 +14,15 @@ import java.util.Scanner;
 
 public class Exercise_04 {
 
+    public static void main(String[] args) {
+        Scanner userInput = new Scanner(System.in);
+        System.out.print("Enter weight in pounds : ");
+        double weightInPound = userInput.nextDouble();
+        double weightInKg = weightInPound * 0.454;
+
+        System.out.println("Weight in Pound : " + weightInPound);
+        System.out.println("Weight in Kilo : " + weightInKg);
+    }
+
 
 }

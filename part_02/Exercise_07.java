@@ -14,6 +14,18 @@ import java.util.Scanner;
  */
 public class Exercise_07 {
 
+    public static void main(String[] args) {
+        Scanner userInput = new Scanner(System.in);
+        System.out.print("Enter numbers in minutes : ");
+
+        int numbersInMinutes = userInput.nextInt();
+        int numberInDays = numbersInMinutes / 1440;
+        double numberInYears = numberInDays / 365;
+
+        System.out.println("In Days : " + numberInDays);
+        System.out.println("In Years : " + numberInYears);
+    }
+
 }
 
 
