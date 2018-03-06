@@ -10,12 +10,11 @@ package part_01;
  */
 
 
-
-
 public class Exercise_01 {
+
     public static void main(String[] args) {
 
-        //System.out.println(...);
+        System.out.print("Hello World!\n" + "I'm a programmer now.\n" + "Yeehaw!");
     }
 }
 

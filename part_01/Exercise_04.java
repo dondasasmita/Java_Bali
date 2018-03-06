@@ -12,5 +12,14 @@ package part_01;
  */
 public class Exercise_04 {
 
+     public static void main(String[] args) {
+
+         for (int i = 1 ; i <= 4 ; i++) {
+             System.out.print(i + " ");
+             System.out.print(i * 2 + " ");
+             System.out.print(i * 4 + "\n");
+         }
+     }
+
 }
 

@@ -15,4 +15,21 @@ package part_01;
 
 public class Exercise_11 {
 
+    public static void main(String[] args) {
+
+        int minutesInAYear = 525600;
+        int secondsInThreeYear = (minutesInAYear * 60) * 3;
+
+        int peopleBornInThreeYears = secondsInThreeYear / 6;
+        int peopleDieInThreeYears = secondsInThreeYear / 12;
+        int peopleImmigrateInThreeYears = secondsInThreeYear /40;
+        int currentPopulation = 380123456;
+
+        int addPopulation = currentPopulation + peopleBornInThreeYears;
+        int subtractPopulation = peopleDieInThreeYears + peopleImmigrateInThreeYears;
+
+        System.out.println("Population in 3 years will be : " + (addPopulation - subtractPopulation));
+
+    }
+
 }
