@@ -15,3 +15,26 @@ import java.util.Scanner;
  Output can be on one line or many lines. However you like.
 
  */
+
+class Exercise1 {
+
+    public static void main(String[] args) {
+
+        int [] newArray = new int [10];
+        Scanner userInput = new Scanner(System.in);
+
+        for (int i = 0 ; i < newArray.length; i++) {
+            System.out.print("Enter a number at index " + i + ": ");
+            newArray [i] = userInput.nextInt();
+        }
+
+        for (int i = 2 ; i < newArray.length; i += 2) {
+            System.out.println("Number at index " + i + ": " + newArray [i] + " | ");
+        }
+
+        for (int i = 9 ; i >= 0 ; i -= 2) {
+            System.out.println("Number at index " + i + ": " + newArray [i] + " | ");
+        }
+
+    }
+}

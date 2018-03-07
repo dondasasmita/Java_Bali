@@ -16,5 +16,24 @@ public class Exercise_03 {
 
     public static void main(String[] strings) {
 
+        int [] [] twoDArray = new int [5][10];
+
+        for (int i = 0 ; i <= twoDArray.length - 1 ; i ++ ) {
+            for (int j = 0 ; j <= twoDArray[i].length - 1 ; j ++) {
+                twoDArray [i][j] = (i * 10) + j;
+            }
+        }
+
+        for (int i = 0 ; i <= twoDArray.length - 1 ; i ++ ) {
+            for (int j = 0 ; j <= twoDArray[i].length - 1 ; j ++) {
+                System.out.print(twoDArray[i][j]);
+            }
+            System.out.println();
+        }
+
+
+
+
+
     }
 }

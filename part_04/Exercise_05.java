@@ -14,5 +14,17 @@ public class Exercise_05 {
 
     public static void main(String[] strings) {
 
+        int [] easyArray = new int [5];
+        int counter = 0;
+
+        for (int index : easyArray) {
+            easyArray [counter] = counter;
+            counter++;
+        }
+
+        for (int index : easyArray) {
+            System.out.println(easyArray [index]);
+        }
+
     }
 }
