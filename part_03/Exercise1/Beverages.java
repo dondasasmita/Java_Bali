@@ -1,4 +1,4 @@
-package part_03;
+package part_03.Exercise1;
 
 /**
   Write 3 classes. These classes can reside in the same file for ease and clarity.
@@ -17,39 +17,5 @@ class Beverages {
 
     int volume;
     boolean isAlcoholic;
-
-}
-
-class Beers extends Beverages {
-
-    public Beers (int alcoholLevel, String brand) {
-        alcoholLevel = 0;
-        brand = "";
-        super.isAlcoholic = true;
-    }
-
-    public void sip() {
-        super.volume = volume - 10;
-        System.out.println(super.volume);
-    }
-
-    public void bottomsUp() {
-        super.volume = volume - volume;
-        System.out.println(super.volume);
-        System.out.println("Empty, one more!");
-    }
-
-}
-
-class Controller {
-
-    public static void main(String[] args) {
-
-        Beers beer1 = new Beers(5, "Bintang");
-        beer1.volume = 100;
-        beer1.sip();
-        beer1.bottomsUp();
-
-    }
 
 }
