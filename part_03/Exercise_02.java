@@ -9,3 +9,21 @@ package part_03;
 
  */
 
+class Students {
+
+    public void fullName (String first , String last) {
+        System.out.println(first + " " + last);
+    }
+
+    public double calculateBMI (int weight , int height) {
+        return (double) weight/height;
+    }
+
+    public static void main(String[] args) {
+
+        Students student1 = new Students();
+        student1.fullName("Bruno","Mars");
+        System.out.println(student1.calculateBMI(100, 170));
+
+    }
+}
