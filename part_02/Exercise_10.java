@@ -34,6 +34,26 @@ public class Exercise_10 {
         }
         System.out.println("Prime numbers from 1 to 100 are :");
         System.out.println(primeNumbers);
+
+    }
+
+    public static void main2 () {
+
+        boolean isPrime = false;
+
+        for (int i = 2 ; i <= 100 ; i++) {
+            isPrime = false;
+
+            for (int x = 2 ; x < i ; x++) {
+                if (i % x == 0) {
+                    isPrime = true;
+                    break;
+                }
+            }
+            if (!isPrime) {
+                System.out.println(i + " is Prime.");
+            }
+        }
     }
 }
 

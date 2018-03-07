@@ -23,8 +23,10 @@ public class Exercise_12 {
         Scanner userInput = new Scanner(System.in);
         System.out.print("Enter miles to drive : ");
         int miles = userInput.nextInt();
+
         System.out.print("Enter MPG of the car : ");
         int mpg = userInput.nextInt();
+
         System.out.print("Enter Price per Gallon : ");
         int pricePerGallon = userInput.nextInt();
 

@@ -13,7 +13,7 @@ public class Exercise_10 {
     public static void main(String[] args) {
 
         double distanceInKM = 12;
-        double distanceInMiles = distanceInKM * 1.6;
+        double distanceInMiles = distanceInKM / 1.6;
         double distanceTravelledPerMinute = distanceInMiles / 30.5;
         System.out.println(distanceTravelledPerMinute * 60);
 

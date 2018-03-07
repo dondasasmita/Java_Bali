@@ -18,8 +18,8 @@ public class Exercise_07 {
         Scanner userInput = new Scanner(System.in);
         System.out.print("Enter numbers in minutes : ");
 
-        int numbersInMinutes = userInput.nextInt();
-        int numberInDays = numbersInMinutes / 1440;
+        double numbersInMinutes = userInput.nextDouble();
+        double numberInDays = numbersInMinutes / 1440;
         double numberInYears = numberInDays / 365;
 
         System.out.println("In Days : " + numberInDays);

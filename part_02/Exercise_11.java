@@ -23,12 +23,14 @@ public class Exercise_11 {
         Scanner userInput = new Scanner(System.in);
         System.out.print("Enter investment value : ");
         int amount = userInput.nextInt();
+
         System.out.print("Enter interest rate p.a. : ");
-        int interestRate = userInput.nextInt();
+        double interestRate = userInput.nextDouble();
+
         System.out.print("Enter number of years to invest : ");
         int year = userInput.nextInt();
 
-        int investmentReturn = (amount * interestRate/100) * year;
+        double investmentReturn = (amount * interestRate) * year;
 
         System.out.print("Future value : " + (amount + investmentReturn));
     }

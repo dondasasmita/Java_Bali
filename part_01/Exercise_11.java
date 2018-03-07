@@ -25,10 +25,9 @@ public class Exercise_11 {
         int peopleImmigrateInThreeYears = secondsInThreeYear /40;
         int currentPopulation = 380123456;
 
-        int addPopulation = currentPopulation + peopleBornInThreeYears;
-        int subtractPopulation = peopleDieInThreeYears + peopleImmigrateInThreeYears;
+        int addPopulation = currentPopulation + peopleBornInThreeYears + peopleImmigrateInThreeYears;
 
-        System.out.println("Population in 3 years will be : " + (addPopulation - subtractPopulation));
+        System.out.println("Population in 3 years will be : " + (addPopulation - peopleDieInThreeYears));
 
     }
 
