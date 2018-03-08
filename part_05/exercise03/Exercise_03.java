@@ -1,4 +1,4 @@
-package part_05;
+package part_05.exercise03;
 
 /**
  * Write two classes. In Class_01 have a main method that creates on instance of Class_02. In Class_02, demonstrate
@@ -7,3 +7,11 @@ package part_05;
  * Use System.out.println at various points to demonstrate the flow of execution. You can name these classes
  * whatever you want.
  */
+
+// class iPhones
+    // class contructor to take in yearLaunched
+    // createName() take in String
+    // createName() take in int
+    // createName() take in char
+
+// iphoneController

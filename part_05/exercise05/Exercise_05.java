@@ -1,4 +1,4 @@
-package part_05;
+package part_05.exercise05;
 
 /**
  * Write one class. This class must have two methods, a main() + a recursive method. The recursive method must take in
@@ -7,3 +7,8 @@ package part_05;
  * out "Hello Recursion!" 10 times.
  *
  */
+
+// class
+    // main method
+    // recursive method takes in integer as parameter to print something
+

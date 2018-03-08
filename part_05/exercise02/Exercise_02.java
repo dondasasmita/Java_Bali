@@ -1,4 +1,4 @@
-package part_05;
+package part_05.exercise02;
 
 import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
 
@@ -10,3 +10,15 @@ import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
  * flow of execution and the varying state of each private variable. You can name these classes whatever you want.
  *
  */
+
+// class Students
+    // totalNum of students
+
+
+    // constructor first name and last name
+    // method to add
+    // method to remove
+
+// class Controller
+    // main method
+    //

@@ -1,4 +1,4 @@
-package part_05;
+package part_05.exercise01;
 
 import java.util.ArrayList;
 
@@ -10,3 +10,23 @@ import java.util.ArrayList;
  * private instance variables. Use System.out.println at various points to demonstrate the flow of execution and
  * the varying state of each private variable. You may name these classes whatever you like.
  */
+
+
+// country class
+    // int population
+    // String language
+    // int currencyExchangeUSD
+    // city arrays
+    // town arrays
+
+
+// city class
+    // String famousLandmarks
+    //
+
+// town class
+    // int numberOf
+    //
+
+// Controller
+    //main method
