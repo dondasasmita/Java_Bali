@@ -4,33 +4,35 @@ Create the following:
 
 1) Write one super class with at least 3 private instance variables and at least 3 public methods
 2) Write three subclasses (with at least 3 methods each that not getters and setters) that extend the super
-class. Make sure each subclass can manipulate the private variables in the super class. One subclass should
-extend another subclass which extends the super class. Each subclass should only have variables and methods
+class.
+Make sure each subclass can manipulate the private variables in the super class. One subclass should
+extend another subclass which extends the super class.
+
+Each subclass should only have variables and methods
 that apply to that subclass, ie Animal -> Mammal -> Whale.
+
 3) Make use of the keyword "super" in at least two constructors.
+
 4) Write an interface with at least 3 methods. Have the superclass implement this interface.
+
 */
 
+//Interface
+    //3 methods
 
 
-package part_07;
+//Super Class
+    // 3 private variables
+    // 3 public methods
 
 
-public class Cordota_Phylum {
-
-boolean
-
+//Sub Class 1 extends SuperClass
+    // 3 methods
 
 
+//Sub Class 2 extends SubClass 1
+    // 3 methods
 
-}
+//Sub Class 3 extends SubClass 2
+    // 3 methods
 
-
-
-class Carnivora_Order {
-
-}
-
-class Ursidae_Family {
-
-}
