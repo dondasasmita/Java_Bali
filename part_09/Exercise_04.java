@@ -12,6 +12,22 @@ import java.text.SimpleDateFormat;
 
 public class Exercise_04 {
 
+    public static void main(String[] args) {
+
+        File fileToRead = new File("/Users/donda/Documents/CodingNomads/Labs/java_labs_bali/TestFiles/file1.txt");
+        SimpleDateFormat dateFormat = new SimpleDateFormat("DD/MM/YY HH:mm:ss");
+
+        System.out.println("The last modification done on : " + dateFormat.format(fileToRead.lastModified()));
+
+        boolean allowedToWrite = fileToRead.canWrite();
+
+        if (allowedToWrite = true) {
+            System.out.println("You are allowed to write the file");
+        } else {
+            System.out.println("You are not allowed to write the file");
+        }
+    }
+
 
 }
 
