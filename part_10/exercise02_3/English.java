@@ -6,6 +6,11 @@ public class English extends Thread {
 
     private String englishWord;
 
+    public English (String name){
+        super(name);
+        start();
+    }
+
     public void getWord() {
 
         Scanner userInput = new Scanner(System.in);
@@ -15,7 +20,7 @@ public class English extends Thread {
 
     //overriding the run method that is called from start method of Thread
     public void run() {
-
+        getWord();
         for (int i = 0 ; i < 5 ; i++){
             System.out.println(englishWord);
             try {

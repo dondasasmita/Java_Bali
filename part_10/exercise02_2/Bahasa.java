@@ -6,6 +6,10 @@ public class Bahasa extends Thread {
 
     private String bahasaWord;
 
+    public Bahasa(){
+        start();
+    }
+
     public void getWord() {
 
         Scanner userInput = new Scanner(System.in);
@@ -15,9 +19,9 @@ public class Bahasa extends Thread {
 
     //overriding the run method that is called from start method of Thread
     public void run() {
-
+        getWord();
         for (int i = 0 ; i < 5 ; i++){
-            System.out.println(bahasaWord + " is ");
+            System.out.println(bahasaWord);
             try {
                 Thread.sleep(500);
             } catch (Exception e) {

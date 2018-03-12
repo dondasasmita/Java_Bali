@@ -7,7 +7,7 @@ public class English extends Thread {
     private String englishWord;
 
     public English (){
-//        setPriority(MIN_PRIORITY);
+        start();
     }
 
     public void getWord() {
@@ -19,11 +19,8 @@ public class English extends Thread {
 
     //overriding the run method that is called from start method of Thread
     public void run() {
-
-        for (int i = 0 ; i < 10 ; i++){
-            //setting the priority to the least
-            setPriority(MIN_PRIORITY);
-            System.out.println(getPriority());
+        getWord();
+        for (int i = 0 ; i < 5 ; i++){
             try {
                 System.out.println(englishWord);
                 Thread.sleep(500);
