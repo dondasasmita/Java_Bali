@@ -56,4 +56,6 @@ public class Refugees {
                 " | Refugees = " + getNumOfRefugees() +
                 " | Refugees per capita = " + getRefPerCapita();
     }
+
+
 }
