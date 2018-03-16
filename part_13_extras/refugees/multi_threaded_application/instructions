@@ -1,0 +1,15 @@
+write a multithreaded application that will do the following:
+- use four threads to read four individual files (ie, file1, file2, fil3, file4)
+- each thread is responsible for reading one file
+- write the contents of all four files, in sequential order (1 -> 2 -> 3 -> 4) into file5 (edited) make sense?
+(this will require the use of join() and synchronized())
+
+if you'd like a different challenge just let me know
+
+(this may also require a synchronized block, just FYI - this is a tricky one)
+
+To do:
+    1.create 4 files
+    2.create a class that implements runnable
+    3.each class will run a method that gets the file and read the file byte by byte.
+      It will write into a new file.

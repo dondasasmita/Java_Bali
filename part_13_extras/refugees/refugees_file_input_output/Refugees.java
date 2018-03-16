@@ -1,4 +1,4 @@
-package part_13_extras.refugees;
+package part_13_extras.refugees.refugees_file_input_output;
 
 public class Refugees {
 
